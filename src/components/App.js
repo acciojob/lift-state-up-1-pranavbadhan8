@@ -6,8 +6,13 @@ const App = () => {
 
    let [ans,setAns] = useState();
 
-    let clicking = () => 
+   let [value,setValue] = useState();
+ 
+    let clicking = () =>{
     setAns('Modal Content'); 
+    setValue("This is the modal content.")
+    }
+   
     
   return (
     <div className="container">
@@ -18,7 +23,7 @@ const App = () => {
               <h2>Child Component</h2>
               <button onClick={clicking}>Show Modal</button>
               <h3>{ans}</h3>
-              <p>{ans}</p>
+              <p>{value}</p>
           </div>
         </div>
     </div>
