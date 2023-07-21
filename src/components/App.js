@@ -7,7 +7,7 @@ const App = () => {
    let [ans,setAns] = useState();
 
     let clicking = () => 
-    setAns('Modal Data'); 
+    setAns('Modal Content'); 
     
   return (
     <div className="container">
