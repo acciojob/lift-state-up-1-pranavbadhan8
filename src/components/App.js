@@ -17,7 +17,7 @@ const App = () => {
           <div className="child">
               <h2>Child Component</h2>
               <button onClick={clicking}>Show Modal</button>
-              <p>{value}</p>  
+              <h3>{value}</h3>  
           </div>
         </div>
     </div>
